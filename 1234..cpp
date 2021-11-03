@@ -2,10 +2,30 @@
 
 using namespace std;
 
+int fnon(int n)
+{
+    int x;
+    if (n>2)
+    {
+        x=n+1;  
+        return x;   
+    }
+    else
+    {
+        
+        return   0;
+    }
+     
+}
+
+
 int main()
 {
-    string s;
-    while(cin>>s)
-    cout << "hello, "<<s<< endl;
+    int x;
+    while(cin>>x)
+    {
+        cout<<fnon(x)+3;
+    }
     return 0;
+    
 }
